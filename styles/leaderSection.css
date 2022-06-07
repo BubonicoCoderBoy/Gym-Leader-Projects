@@ -1,0 +1,144 @@
+#leader-section{
+	background-color: black;
+	width: 80%;
+	height: 80vh;
+	margin:auto;
+	margin-top: 10px;
+	overflow: hidden;
+
+	position: relative;
+	color:white;
+	box-shadow: 3px 3px 10px black;
+
+}
+
+.leader-section-title{
+	width: 35%;
+	margin:auto;
+	margin-top:10px;
+	padding: 10px;
+	padding-left: 30px;
+	font-size: 2.5em;
+	border-bottom: 2px solid white;
+
+	position:absolute;
+	z-index: 2;
+}
+
+#leader-section-bg{
+	position: absolute;
+	z-index: 0;
+
+	width: 100%;
+	height: 80vh;
+
+	opacity: 0.2;
+}
+
+#leader-section-pic{
+
+	position: relative;
+	top:30px;
+	left: 50px;
+	width: 350px;
+	margin:auto;
+
+}
+
+#leader-pic{
+	width: 380px;
+}
+
+/*------------------------------*/
+
+#leader-section-list{
+
+	/*background-color: grey;*/
+	width: 400px;
+
+	position: absolute;
+	top:120px;
+	right:110px;
+
+}
+
+#leader-section-list ul{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
+}
+
+#leader-section-list li{
+	/*background-color: lightgrey;*/
+	font-size: 2em;
+	width: 95%;
+	height: 80px;
+	margin:10px;
+	display: flex;
+
+}
+
+#leader-section-list li img{
+	width: 120px;
+	height: 120px;
+}
+
+#leader-section-list .listItem1 img{
+	position: relative;
+	bottom:45px;
+	right:16px;
+	width: 160px;
+	height: 160px;
+}
+#leader-section-list .listItem2 img{
+	position: relative;
+	right: 35px;
+}
+#leader-section-list .listItem3 img{
+	position: relative;
+	bottom:45px;
+}
+#leader-section-list .listItem4 img{
+	position: relative;
+	left:10px;
+	bottom: 15px;
+}
+
+#leader-section-list .listIcon{
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border-radius: 50%;
+	background-color: #2C272E;
+	border:3px solid;
+
+}
+
+#leader-section-list .pkmLabel{
+	padding: 0px 10px;
+	font-size: .7em;
+}
+#leader-section-list .pkmLabel p{
+	font-size: .6em;
+}
+
+/*------------------------------*/
+
+#leader-section-misc{
+
+	/*background-color: grey;*/
+	width: 400px;
+	height: 200px;
+	padding: 10px;
+
+	position: absolute;
+	top:200px;
+	left:150px;
+}
+
+#leader-section-misc>h2{
+	font-size: 2em;
+}

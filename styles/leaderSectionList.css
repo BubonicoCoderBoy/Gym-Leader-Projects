@@ -1,0 +1,74 @@
+
+#leader-section-list{
+
+	/*background-color: grey;*/
+	width: 400px;
+
+	position: absolute;
+	top:120px;
+	right:110px;
+
+}
+
+#leader-section-list ul{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
+}
+
+#leader-section-list li{
+	/*background-color: lightgrey;*/
+	font-size: 2em;
+	width: 95%;
+	height: 80px;
+	margin:10px;
+	display: flex;
+
+}
+
+#leader-section-list li img{
+	width: 120px;
+	height: 120px;
+}
+
+#leader-section-list .listItem1 img{
+	position: relative;
+	bottom:45px;
+	right:16px;
+	width: 160px;
+	height: 160px;
+}
+#leader-section-list .listItem2 img{
+	position: relative;
+	right: 35px;
+}
+#leader-section-list .listItem3 img{
+	position: relative;
+	bottom:45px;
+}
+#leader-section-list .listItem4 img{
+	position: relative;
+	left:10px;
+	bottom: 15px;
+}
+
+#leader-section-list .listIcon{
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border-radius: 50%;
+	background-color: #2C272E;
+	border:3px solid;
+
+}
+
+#leader-section-list .pkmLabel{
+	padding: 0px 10px;
+	font-size: .7em;
+}
+#leader-section-list .pkmLabel p{
+	font-size: .6em;
+}
