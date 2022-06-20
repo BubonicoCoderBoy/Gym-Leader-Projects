@@ -1,11 +1,11 @@
 
 import '../libs/jquery.js'
 
-export function load(data1,data2){
+export function load(leader){
 
 	$('#root').append(headerHTML())
 
-	$('#root').append(leaderSectionHTML(data1,data2))
+	$('#root').append(leaderSectionHTML(leader))
 
 	$('#root').append(cardSectionHTML())
 
@@ -31,7 +31,7 @@ function headerHTML(){
 
 }
 
-function leaderSectionHTML(data1,data2){
+function leaderSectionHTML(obj){
 
 	const leaderSecHTML =
 
@@ -39,11 +39,11 @@ function leaderSectionHTML(data1,data2){
 
 		<h1 class="leader-section-title">Lider de Ginásio</h1>
 
-		<img id="leader-section-bg" src="./img/bg.png" alt="">
+		<img id="leader-section-bg" src="${obj.bgImgSrc}" alt="">
 
 		<div id="leader-section-pic">
 
-			<img id="leader-pic" src="img/gymLeader.png" alt="">
+			<img id="leader-pic" src="${obj.imgSrc}" alt="">
 			
 		</div>
 
@@ -53,48 +53,48 @@ function leaderSectionHTML(data1,data2){
 				<li class="listItem1">
 					
 					<div class="listIcon">
-						<img src="img/pkm1.png" alt="">
+						<img src="${obj.pkms[0].imgSrc}" alt="">
 					</div>
 					<div class="pkmLabel">
-						<h4>Geodude</h4>
-						<p>Detalhes do Pkm / Tipo / HP</p>
-						<p>Detalhes do Pkm / Tipo / HP</p>
+						<h4>${obj.pkms[0].name}</h4>
+						<p>${obj.pkms[0].details1}</p>
+						<p>${obj.pkms[0].details2}</p>
 					</div>
 
 				</li>
 				<li class="listItem2">
 					
 					<div class="listIcon">
-						<img src="img/pkm2.png" alt="">
+						<img src="${obj.pkms[1].imgSrc}" alt="">
 					</div>
 					<div class="pkmLabel">
-						<h4>Sandslash</h4>
-						<p>Detalhes do Pkm / Tipo / HP</p>
-						<p>Detalhes do Pkm / Tipo / HP</p>
+						<h4>${obj.pkms[1].name}</h4>
+						<p>${obj.pkms[1].details1}</p>
+						<p>${obj.pkms[1].details2}</p>
 					</div>
 
 				</li>
 				<li class="listItem3">
 					
 					<div class="listIcon">
-						<img src="img/pkm3.png" alt="">
+						<img src="${obj.pkms[2].imgSrc}" alt="">
 					</div>
 					<div class="pkmLabel">
-						<h4>Rhyhorn</h4>
-						<p>Detalhes do Pkm / Tipo / HP</p>
-						<p>Detalhes do Pkm / Tipo / HP</p>
+						<h4>${obj.pkms[2].name}</h4>
+						<p>${obj.pkms[2].details1}</p>
+						<p>${obj.pkms[2].details2}</p>
 					</div>
 
 				</li>
 				<li class="listItem4">
 					
 					<div class="listIcon">
-						<img src="img/pkm4.png" alt="">
+						<img src="${obj.pkms[3].imgSrc}" alt="">
 					</div>
 					<div class="pkmLabel">
-						<h4>Onix</h4>
-						<p>Detalhes do Pkm / Tipo / HP</p>
-						<p>Detalhes do Pkm / Tipo / HP</p>
+						<h4>${obj.pkms[3].name}</h4>
+						<p>${obj.pkms[3].details1}</p>
+						<p>${obj.pkms[3].details2}</p>
 					</div>
 
 				</li>
@@ -104,8 +104,8 @@ function leaderSectionHTML(data1,data2){
 
 		<div id="leader-section-misc">
 			
-			<h2>${data1}</h2>
-			<p>${data2}</p>
+			<h2>${obj.name}</h2>
+			<p>${obj.bio}</p>
 
 		</div>
 	</section>`

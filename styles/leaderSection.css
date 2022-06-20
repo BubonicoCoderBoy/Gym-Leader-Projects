@@ -38,15 +38,15 @@
 #leader-section-pic{
 
 	position: relative;
-	top:30px;
-	left: 50px;
+	top:80px;
+	left: 80px;
 	width: 350px;
 	margin:auto;
 
 }
 
 #leader-pic{
-	width: 380px;
+	/*width: 280px;*/
 }
 
 /*------------------------------*/

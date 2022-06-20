@@ -5,9 +5,25 @@ import * as homeView from '../view/homeView.js'
 
 import * as homeModel from '../model/homeModel.js'
 
-let leaderName = homeModel.data.leaderName
-let leaderBio = homeModel.data.leaderBio
+homeView.load(homeModel.data[0])
 
-homeView.load(leaderName,leaderBio)
+$('button:eq(0)')
+	.click(function(){
+		homeView.load(homeModel.data[0])
+		alert('O problema ta no ./view/homeView.js na função load')
+	})
 
-console.log($('#leader-section'))
+$('button:eq(1)')
+	.click(function(){
+		homeView.load(homeModel.data[1])
+		alert('O problema ta no ./view/homeView.js na função load')
+	})
+
+/*
+
+Anotações
+
+Fragmentar a homeView em 3 views diferentes com seus respectivos
+controladores :v
+
+*/
