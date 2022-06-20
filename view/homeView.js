@@ -124,7 +124,7 @@ function cardSectionHTML(){
 
 		<div class="card">
 			
-			<img src="./img/card1.png" alt="" class="card-img">
+			<img src="./img/cards/card1.png" alt="" class="card-img">
 
 			<div class="card-label">
 				<h2>Museu de Pewter</h2>
@@ -135,7 +135,7 @@ function cardSectionHTML(){
 
 		<div class="card">
 			
-			<img src="./img/card2.png" alt="" class="card-img">
+			<img src="./img/cards/card2.png" alt="" class="card-img">
 
 			<div class="card-label">
 				<h2>Praça Central</h2>
@@ -146,7 +146,7 @@ function cardSectionHTML(){
 
 		<div class="card">
 			
-			<img src="./img/card3.png" alt="" class="card-img">
+			<img src="./img/cards/card3.png" alt="" class="card-img">
 
 			<div class="card-label">
 				<h2>Pokecentro</h2>
@@ -156,7 +156,7 @@ function cardSectionHTML(){
 		</div>
 		<div class="card">
 			
-			<img src="./img/card1.png" alt="" class="card-img">
+			<img src="./img/cards/card1.png" alt="" class="card-img">
 
 			<div class="card-label">
 				<h2>Museu de Pewter</h2>
@@ -166,18 +166,7 @@ function cardSectionHTML(){
 		</div>
 		<div class="card">
 			
-			<img src="./img/card1.png" alt="" class="card-img">
-
-			<div class="card-label">
-				<h2>Museu de Pewter</h2>
-				<p>descrição</p>
-			</div>
-
-		</div>
-
-		<div class="card">
-			
-			<img src="./img/card1.png" alt="" class="card-img">
+			<img src="./img/cards/card1.png" alt="" class="card-img">
 
 			<div class="card-label">
 				<h2>Museu de Pewter</h2>
@@ -188,7 +177,18 @@ function cardSectionHTML(){
 
 		<div class="card">
 			
-			<img src="./img/card2.png" alt="" class="card-img">
+			<img src="./img/cards/card1.png" alt="" class="card-img">
+
+			<div class="card-label">
+				<h2>Museu de Pewter</h2>
+				<p>descrição</p>
+			</div>
+
+		</div>
+
+		<div class="card">
+			
+			<img src="./img/cards/card2.png" alt="" class="card-img">
 
 			<div class="card-label">
 				<h2>Praça Central</h2>
@@ -199,7 +199,7 @@ function cardSectionHTML(){
 
 		<div class="card">
 			
-			<img src="./img/card3.png" alt="" class="card-img">
+			<img src="./img/cards/card3.png" alt="" class="card-img">
 
 			<div class="card-label">
 				<h2>Pokecentro</h2>
